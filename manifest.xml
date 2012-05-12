@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 
 <ApplicationManifest xmlns="http://schemas.google.com/ApplicationManifest/2009">
+  <Name>TripIt Gadget for Gmail</Name>
+  <Description>Adds "Send to TripIt" feature to Gmail.</Description>
+
   <Extension id="tripit-gmail-gadget" type="gadget">
     <Name>Send to TripIt</Name>
     <Url>https://github.com/marnen/tripit-gmail-gadget/blob/master/gadget.xml</Url>
