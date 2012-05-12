@@ -1,15 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 
 <ApplicationManifest xmlns="http://schemas.google.com/ApplicationManifest/2009">
-  <Extension id="from" type="contextExtractor">
-    <Name>Email Sender</Name>
-    <Url>google.com:SenderEmailExtractor</Url>
-    <Param name="sender_email" value="my_boss@my_domain.com"/>
-    <Triggers ref="bossIsCalling"/>
-    <Scope ref="senderScope"/>
-    <Container name="mail"/>
-  </Extension>
-
   <Extension id="tripit-gmail-gadget" type="gadget">
     <Name>Send to TripIt</Name>
     <Url>https://github.com/marnen/tripit-gmail-gadget/blob/master/gadget.xml</Url>
@@ -17,9 +8,4 @@
     <!-- Uncomment this to enable Caja. -->
     <!-- Param name="caja" value="enabled"/> -->
   </Extension>
-
-  <Scope id="senderScope">
-    <Url>tag:google.com,2010:auth/contextual/extractor/FROM_ADDRESS</Url>
-    <Reason>We need to look at sender addresses to figure out which messages we can process.</Reason>
-  </Scope>
 </ApplicationManifest>
