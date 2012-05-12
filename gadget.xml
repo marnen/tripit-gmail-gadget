@@ -3,7 +3,7 @@
 <ApplicationManifest xmlns="http://schemas.google.com/ApplicationManifest/2009">
   <Extension id="tripit-gmail-gadget" type="gadget">
     <Name>Send to TripIt</Name>
-    <Url>_http://example.com/gadgets/mygadget.xml_</Url>
+    <Url>https://github.com/marnen/tripit-gmail-gadget/blob/master/gadget.xml</Url>
     <Container name="mail"/>
     <!-- Uncomment this to enable Caja. -->
     <!-- Param name="caja" value="enabled"/> -->
