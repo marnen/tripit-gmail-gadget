@@ -18,7 +18,7 @@
     <!-- Param name="caja" value="enabled"/> -->
   </Extension>
 
-  <Scope ref="senderScope">
+  <Scope id="senderScope">
     <Url>tag:google.com,2010:auth/contextual/extractor/FROM_ADDRESS</Url>
     <Reason>We need to look at sender addresses to figure out which messages we can process.</Reason>
   </Scope>
